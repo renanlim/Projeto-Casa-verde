@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Casa Verde</title>
+        <link rel="stylesheet" href="assets/img/css/base/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/img/css/base/base.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/botao.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/input.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/cartao.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/item.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/produto.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/video.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/cabecalho.css">
+        <link rel="stylesheet" href="assets/img/css/componentes/rodape.css">
+        
+    </head>
+    <body>
+        <!-- estrutura do cabeçalho -->
+        <header class="container cabecalho">
+            <img src="assets/img/logo.svg" alt="logo" class="cabecalho--logo">
+            <a href="#" aria-label="Meu carrinho">
+                <img src="assets/img/icones/carrinho.svg" alt="carrinho de compras" class="cabecalho--carrinho"></a>
+        </header>
+        <main class="container">
+            <button class="botao">Assinar Newsletter</button>
+            <input type="text" class="input input--icone input--email" placeholder="Insira seu e-mail" aria-label="Insira seu e-mail">
+            <button class="botao botao--alternativo">Botao alternativo</button>
+
+            <article class="cartao">
+                <h2 class="titulo alinhamento--meio">Como conseguir
+                    <span class="titulo-destaque">minha planta</span>
+                </h2>
+                <ul class="lista-item">
+                    <li class="item">
+                        <span class="item-icone item__icone--cursor"></span>
+                        <p>Escolha suas plantas</p>
+                    </li>
+                    <li class="item">
+                        <span class="item-icone item__icone--carrinho"></span>
+                        <p>Faça seu pedido</p>
+                    </li>
+                    <li class="item">
+                        <span class="item-icone item__icone--caminhao"></span>
+                        <p>Aguarde na sua casa</p>
+                    </li>
+                </ul>
+            </article>
+            <!-- article.produto>img.produto-imagem+div.produto-conteudo>h3.produto-titulo.titulo-destaque+p.produto-preco+a.produto-comprar>span.produto-comprar-icone -->
+            <article class="produto">
+                <img src="assets/img/produto-01 1.png" alt="Foto do produto" class="produto-imagem">
+                <div class="produto-conteudo">
+                    <h3 class="produto-titulo titulo-destaque">Ajuga reptans</h3>
+                    <p class="produto-preco">R$ 20,00</p>
+                    <a href="#" class="produto-comprar">Comprar<span class="produto-comprar-icone"></span></a>
+                </div>
+            </article>
+
+            <article class="cartao-de-video">
+                <div class="cartao-de-video--video"><img src="https://picsum.photos/278/252" alt="Banner do video"></div>
+                <h3 class="cartao-de-video--titulo">Vídeo XYZ</h3>
+                <p>Publicado em março de 2022</p>
+            </article>
+        </main>
+        <footer class="container rodape">
+            <img src="assets/img/logo.svg" alt="logo" class="rodape--logo">
+            <ul class="rodape--social">
+                <li><a href="#" class="rodape--social-midia" title="Facebook"><img src="assets/img/icones/facebook.svg" alt="icone facebook"></a></li>
+                <li><a href="#" class="rodape--social-midia" title="Twitter"><img src="assets/img/icones/twitter.svg" alt="icone twitter"></a></li>
+                <li><a href="#" class="rodape--social-midia" title="Instagram"><img src="assets/img/icones/instagram.svg" alt="icone do instagram"></a></li>
+            </ul>
+            <address class="rodape--unidade texto">
+                <span class="rodape--unidade-titulo">Rio de Janeiro</span>
+                Rua Siqueira Campos, 171, 303<br>
+                Copacabana<br>
+                Telefone (21) 99876-0099
+            </address>
+            <address class="rodape--unidade texto">
+                <span class="rodape--unidade-titulo">São Paulo</span>
+                Rua Anita, 33, 101<br>
+                Morumbi<br>
+                Telefone (11) 99876-0077
+            </address>
+        </footer>
+    </body>
+</html>
